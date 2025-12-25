@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" sizes="16x16" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=playlist_play" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo invert">
+                    <img width="40px" src="Images/logo.svg" alt="">Spotify
+                </div>
+                <ul>
+                    <li><img src="Images/home.svg" alt="home" class="invert">Home</li>
+                    <li><img src="Images/search.svg" alt="search" class="invert">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded p-1">
+                <div class="heading">
+                    <span class="material-symbols-outlined">
+                        playlist_play
+                    </span>
+                    <h2>
+                        Your library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <footer class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink"><span
+                                data-encore-id="type">Safety &amp; Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink"><span
+                                data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink"><span
+                                data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                            data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink"><span
+                                data-encore-id="type">Accessibility</span></a></div>
+                </footer>
+            </div>
+        </div>
+
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="cancel">
+                        <img class="invert" style="width: 30px;" src="Images/cancel.svg" alt="">
+                    </div>
+                    <div class="menuContainer">
+                        <img class="invert menu" src="Images/menu.svg" alt="">
+                    </div>
+                    <span class="material-symbols-outlined">
+                        chevron_left
+                    </span>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Signup</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h2>Spotify Playlist</h2>
+                <div class="cardContainer">                                 
+                    
+                </div>
+            </div>
+        </div>
+        <div class="playbar invert">
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+                <div class="songinfo">
+                </div>
+                <div class="songbuttons">
+                    <img id="previous" src="Images/playpreviousbtn.svg" alt="">
+                    <img id="play" src="Images/playbtn.svg" alt="">
+                    <img id="next" src="Images/playnextbtn.svg" alt="">
+                </div>
+                <div class="songtime">
+
+                </div>
+            </div>
+            <div class="volumeContainer">
+                <div class="volume">
+                    <img class="volimg" src="Images/volumehigh.svg" alt="">
+                </div>
+                <div class="range">
+                    <input type="range" name="valume">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="practiceJS.js"></script>
+</body>
+
+</html>
