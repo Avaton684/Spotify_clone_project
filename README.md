@@ -25,11 +25,7 @@ CSS3 – Styling & layout
 
 JavaScript (Vanilla) – Logic & interactivity
 
-📸 Screenshots
-
-Add screenshots of your project UI below
-
-## Screenshots
+**📸 ## Screenshots**
 
 ![Home Page](https://github.com/user-attachments/assets/0b0a162f-2147-4ed8-a190-2fb8a99e1476)
 
